@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Nhom3_OLAP</Database>
+    <Server>LAPTOP-19JSAAUL\MSSQLSERVER1</Server>
+    <ConnectionString>Data Source=LAPTOP-19JSAAUL\MSSQLSERVER1;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ae43Gin8xcHB8FO1amTPFi4JiS0=08/10/2024 2:01:52 SA08/10/2024 2:01:52 SA</TimeStamp>
+        <ID>
+          <String>Nhom3 Schema_OLAP</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>VBM+v3BTR/4o4xDqpuv5OFbO7Fw=08/10/2024 2:03:35 SA08/10/2024 2:03:34 SA</TimeStamp>
+        <ID>
+          <String>Nhom3 Schema_View</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ln4/Iv7HUvzlNZ9iLuxb9rbSpnQ=08/10/2024 2:06:46 SA08/10/2024 2:05:00 SA</TimeStamp>
+        <ID>
+          <String>Dim Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Fs/Bsok/5QdI45JQbgyAsufK+u4=08/10/2024 2:06:46 SA08/10/2024 2:05:00 SA</TimeStamp>
+        <ID>
+          <String>Dim Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hhBy5dmvhKUt4ovV6oL7ss9boCI=08/10/2024 2:06:46 SA08/10/2024 2:05:00 SA</TimeStamp>
+        <ID>
+          <String>Dim Campaign Schema</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>A64uuu/rDoQMj1dtKbNE3HudJSI=08/10/2024 2:06:46 SA08/10/2024 2:05:00 SA</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>MFPVGAvoBhkxQojCwDMn7pB2XlQ=08/10/2024 2:06:58 SA08/10/2024 2:05:00 SAN6VFNIBzl5rPw9IqoawkF6QooUw=08/10/2024 2:05:01 SA08/10/2024 2:05:00 SA</TimeStamp>
+        <ID>
+          <String>Nhom3 Schema_Cube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>bypEXTWL6+MzpTRngNZ32bpcvZ0=08/10/2024 1:58:24 SA08/10/2024 1:58:23 SA</TimeStamp>
+      <ID>
+        <String>Nhom3_OLAP</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-10-07T19:07:18.823333Z</LastDeployed>
+</DeploymentSnapshot>

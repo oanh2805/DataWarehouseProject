@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ThanhMy\\DUE_HK5\\kho_khai_pha_du_lieu_phanDinhVan\\bt_giuaki\\btnGiuaKy\\Nhom3_OLAP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B86EF1-25FF-4C3D-856B-FB0D24F8B04D}|Nhom3_OLAP\\Nhom3_OLAP.dwproj|D:\\ThanhMy\\DUE_HK5\\kho_khai_pha_du_lieu_phanDinhVan\\bt_giuaki\\btnGiuaKy\\Nhom3_OLAP\\Nhom3_OLAP\\Nhom3 Schema_Cube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{E3B86EF1-25FF-4C3D-856B-FB0D24F8B04D}|Nhom3_OLAP\\Nhom3_OLAP.dwproj|solutionrelative:Nhom3_OLAP\\Nhom3 Schema_Cube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{2826931d-bb12-452c-b660-c21852fb5da2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Nhom3 Schema_Cube.cube [Design]",
+              "DocumentMoniker": "D:\\ThanhMy\\DUE_HK5\\kho_khai_pha_du_lieu_phanDinhVan\\bt_giuaki\\btnGiuaKy\\Nhom3_OLAP\\Nhom3_OLAP\\Nhom3 Schema_Cube.cube",
+              "RelativeDocumentMoniker": "Nhom3_OLAP\\Nhom3 Schema_Cube.cube",
+              "ToolTip": "D:\\ThanhMy\\DUE_HK5\\kho_khai_pha_du_lieu_phanDinhVan\\bt_giuaki\\btnGiuaKy\\Nhom3_OLAP\\Nhom3_OLAP\\Nhom3 Schema_Cube.cube [Design]",
+              "RelativeToolTip": "Nhom3_OLAP\\Nhom3 Schema_Cube.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-07T19:05:01.374Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

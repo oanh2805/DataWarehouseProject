@@ -1,0 +1,38 @@
+﻿--1. truy vấn doanh thu theo danh mục sản phẩm
+SELECT 
+  [Measures].[Cost] ON COLUMNS, 
+  [Dim Product].[Category].[Category] ON ROWS 
+FROM [Nhom3 Schema_Cube];
+
+--2. Truy vấn tổng thu nhập hàng tháng của khách hàng theo quốc gia:
+SELECT 
+  [Measures].[Monthly Income] ON COLUMNS, 
+   NON EMPTY([Dim Customer].[Country].[Country]) ON ROWS 
+FROM [Nhom3 Schema_Cube];
+
+--3.Truy vấn chi phí của sản phẩm theo chiến dịch:
+SELECT 
+  [Measures].[Cost] ON COLUMNS, 
+  [Dim Campaign Schema].[Campaign Schema].[Campaign Schema] ON ROWS 
+FROM [Nhom3 Schema_Cube];
+
+--4. tổng sl sp bán ra theo từng quốc gia của khách hàng
+SELECT
+    [Measures].[Quantity] ON COLUMNS,
+NON EMPTY 
+    ([Dim Product].[Product].[Product],
+     [Dim Customer].[Country].[Country]) ON ROWS
+FROM [Nhom3 Schema_Cube];
+
+--5 Chi phí bán hàng theo Date của China
+SELECT 
+  [Measures].[Cost] ON COLUMNS, 
+  [Dim Time].[Date].[Date] ON ROWS 
+FROM [Nhom3 Schema_Cube]
+WHERE [Country].[Country].[China];
+--6 Điểm tín dụng của khách hàng tại bang California
+SELECT 
+    [Measures].[Credit Score] ON COLUMNS,
+	[Dim Customer].[Full Name].[Full Name] ON ROWS
+FROM [Nhom3 Schema_Cube]
+WHERE [Dim Customer].[State].[California]

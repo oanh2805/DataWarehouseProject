@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "Nhom3_Schema", "Nhom3_Schema\Nhom3_Schema.dtproj", "{AB9C01A9-521C-4E0B-B25A-095DA2EFB19B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB9C01A9-521C-4E0B-B25A-095DA2EFB19B}.Development|Default.ActiveCfg = Development
+		{AB9C01A9-521C-4E0B-B25A-095DA2EFB19B}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B2518C0-FC8E-4ABD-96F0-760C025ACF1A}
+	EndGlobalSection
+EndGlobal
